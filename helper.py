@@ -13,3 +13,5 @@ def number_to_emoji(number_str):
         '.': '.'
     }
     return ''.join(num_emoji.get(char, char) for char in number_str)
+
+
